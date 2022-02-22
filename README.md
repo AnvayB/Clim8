@@ -1,10 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+## Built using [OpenWeatherMap API](https://openweathermap.org/)
+<!-- Following [Code Commerce's](https://www.youtube.com/watch?v=UjeXpct3p7M) video -->
 
 ### `npm start`
 
