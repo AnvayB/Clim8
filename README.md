@@ -1,7 +1,8 @@
 ## Built using [OpenWeatherMap API](https://openweathermap.org/)
 <!-- Following [Code Commerce's](https://www.youtube.com/watch?v=UjeXpct3p7M) video -->
 
-<img width="721" alt="Screen Shot 2022-02-21 at 7 05 19 PM" src="https://user-images.githubusercontent.com/53208269/155055650-f1b2878a-e331-462b-8480-1c590bdde1de.png">
+
+<img width="1440" alt="Screen Shot 2022-02-24 at 1 47 43 PM" src="https://user-images.githubusercontent.com/53208269/155613258-883a33bd-0bd8-4b04-929c-8e86ee31c505.png">
 
 
 
