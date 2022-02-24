@@ -38,7 +38,7 @@ const Weather = () => {
 
         <div className="top">
           <div className="location">
-            <p>{data.name}, {data.sys ? <p>{data.sys.country}</p> : null}</p>
+            <p>{data.name} {data.sys ? <p>{data.sys.country}</p> : null}</p>
             
           </div>
 
@@ -78,7 +78,6 @@ const Weather = () => {
           </div>
         </div>
         }
-        
 
       </div>
     </div>
