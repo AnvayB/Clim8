@@ -9,6 +9,7 @@ function App() {
 
   const key = '64be88d0435a2d6eca2e8e9877b67807'
   let url =`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=${key}`
+  // https://api.openweathermap.org/data/2.5/weather?q=Milpitas&units=imperial&appid=64be88d0435a2d6eca2e8e9877b67807
  
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
@@ -19,6 +20,8 @@ function App() {
       setLocation('')
     }
   }
+
+
 
   
 
@@ -48,6 +51,11 @@ function App() {
 
           <div className="description">
             {data.weather ? <p>{data.weather[0].main}</p> : null}
+          </div>
+
+          <div className="icon">
+            {data.weather ? <img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="icon" /> : null}
+            {/* <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="icon" /> */}
           </div>
         </div>
 {/* ----------------------------------------- */}
