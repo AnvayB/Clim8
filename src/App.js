@@ -42,20 +42,24 @@ function App() {
 
         <div className="top">
           <div className="location">
-            <p>{data.name}</p>
+            <p>{data.name}, {data.sys.country}</p>
           </div>
 
           <div className="temp">
             {data.main ? <h1>{data.main.temp.toFixed()}ºF</h1> : null}
           </div>
 
+          <div className="report">
+            {data.weather ? <p>{data.weather[0].main};</p> : null}
+          </div>
+
           <div className="description">
-            {data.weather ? <p>{data.weather[0].main}</p> : null}
+            {data.weather ? <p>{data.weather[0].description.charAt(0).toUpperCase() + 
+            data.weather[0].description.slice(1) }</p> : null}
           </div>
 
           <div className="icon">
             {data.weather ? <img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="icon" /> : null}
-            {/* <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="icon" /> */}
           </div>
         </div>
 {/* ----------------------------------------- */}
