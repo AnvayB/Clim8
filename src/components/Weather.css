@@ -42,12 +42,12 @@ h1 {
   width: 100%;
   margin: 1rem auto;
 }
-.app .report {
-  /* position: relative;
+/* .app .report {
+  position: relative;
   right: -90%;
   transform-origin: 0 0;
-  transform: rotate(270deg); */
-}
+  transform: rotate(270deg);
+} */
 .app .description p{
   font-size: 20px;
 }
