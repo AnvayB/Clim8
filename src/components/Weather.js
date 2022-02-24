@@ -38,7 +38,8 @@ const Weather = () => {
 
         <div className="top">
           <div className="location">
-            <p>{data.name}, {data.sys.country}</p>
+            <p>{data.name}, {data.sys ? <p>{data.sys.country}</p> : null}</p>
+            
           </div>
 
           <div className="temp">
