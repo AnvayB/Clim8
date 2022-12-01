@@ -10,6 +10,8 @@ const Weather = () => {
   const key = '64be88d0435a2d6eca2e8e9877b67807'
   let url =`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=${key}`
   // https://api.openweathermap.org/data/2.5/weather?q=Milpitas&units=imperial&appid=64be88d0435a2d6eca2e8e9877b67807
+  // let url = "http://localhost:9092/signup"
+
  
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
@@ -20,6 +22,21 @@ const Weather = () => {
       setLocation('')
     }
   }
+  // if (event.key === 'Enter') {
+  //   axios.post(url, {
+  //     "firstName": "ajay",
+  //     "middleName": "abc",
+  //     "lastName": "bhanap",
+  //     "emailId": "ajay.bhanap@gmail.com",
+  //     "isActiveStatus": false,
+  //     "password": "abc123"
+  //   }).then((response) => {
+  //     setData(response.data)
+  //     console.log(response)
+  //   })
+  //   setLocation('')
+  // }
+
 
   return (
     <div className="app">
